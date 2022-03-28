@@ -8,7 +8,7 @@ const ReadFile = Util.promisify(Fs.readFile);
 
 async function html() {
   try {
-    const htmlPath = Path.join(__dirname, "../invoiceBE.html");
+    const htmlPath = Path.join(__dirname, "../invoice.html");
     const content = await ReadFile(htmlPath, "utf8");
     return content
   } catch (error) {
