@@ -26,5 +26,5 @@ You may also see any lint errors in the console.
 
 In the `/Server` directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
